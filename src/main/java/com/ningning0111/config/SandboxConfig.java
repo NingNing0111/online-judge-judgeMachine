@@ -19,4 +19,5 @@ import org.springframework.context.annotation.Configuration;
 @Data
 public class SandboxConfig {
     private String luddSandboxUrl="http://localhost:8329";
+    private String luddSecretKey;
 }

@@ -1,3 +1,5 @@
 server:
   port: 8821
-
+judge:
+  sandbox:
+    ludd-secret-key: 123121

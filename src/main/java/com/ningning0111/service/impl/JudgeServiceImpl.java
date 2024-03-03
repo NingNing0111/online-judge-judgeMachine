@@ -77,7 +77,6 @@ public class JudgeServiceImpl implements JudgeService {
         // 默认答案错误
         JudgeStatusEnum judgeStatusEnum = JudgeStatusEnum.WRONG_ANSWER;
         JudgeConfig config = judgeRequest.getConfig();
-
         // 如果执行不成功
         if(!Objects.equals(response.getStatus(), ExecuteStatus.EXECUTE_OK.getStatus())){
             if(response.getMessage().equals(JudgeStatusEnum.COMPILE_ERROR.getText())){
