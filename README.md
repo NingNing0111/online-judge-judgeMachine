@@ -4,8 +4,7 @@
 
 ## 业务流程
 
-- 获取测试用例的输入文件，封装ExecuteCodeRequest对象；
-- 调用代码沙箱API，获取ExecuteCodeResponse对象；
-- 根据ExecuteCodeResponse结果，判断代码是否超时、内存溢出等。
-- 获取测试用例的输出文件，比对ExecuteCodeResponse运行结果；
-- 封装结果，返回
+- 接收：`代码`、`语言`、`输入用例`、`输出用例`
+- 调用代码沙箱执行代码，获取`程序执行结果`
+- 比对结果封装判题信息
+- 返回

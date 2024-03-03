@@ -2,6 +2,8 @@ package com.ningning0111.model.dto;
 
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @Project: com.ningning0111.model
  * @Author: pgthinker
@@ -11,15 +13,6 @@ import lombok.Data;
  */
 @Data
 public class JudgeRequest {
-    /**
-     * 提交ID
-     */
-    private Long id;
-
-    /**
-     * 题目ID
-     */
-    private Long questionId;
 
     /**
      * 提交的代码
@@ -35,4 +28,13 @@ public class JudgeRequest {
      * 判题配置
      */
     private JudgeConfig config;
+
+    /**
+     * 测试用例的输入数据
+     */
+    private List<String> inputData;
+    /**
+     * 测试用例的输出数据
+     */
+    private List<String> outputData;
 }

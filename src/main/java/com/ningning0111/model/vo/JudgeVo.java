@@ -15,14 +15,6 @@ import java.util.List;
 @Data
 @Builder
 public class JudgeVo {
-    /**
-     * 提交ID
-     */
-    private Long id;
-    /**
-     * 题目ID
-     */
-    private Long questionId;
 
     /**
      * 测试用例的输入数据

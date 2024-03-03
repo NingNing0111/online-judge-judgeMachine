@@ -27,8 +27,8 @@ public class JudgeController {
 
     @PostMapping("/judge")
     public BaseResponse judge(@RequestBody JudgeRequest judgeRequest){
-        if(!StrUtil.isNotBlank(judgeRequest.getCode())){
-            return ResultUtils.error(ErrorCode.PARAMS_ERROR,"代码不能为空");
+        if(judgeRequest == null){
+            return ResultUtils.error(ErrorCode.PARAMS_ERROR,"参数不能为空");
         }
         try {
             return judgeService.judge(judgeRequest);
