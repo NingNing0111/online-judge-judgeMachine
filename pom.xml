@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ningning0111</groupId>
-    <artifactId>oj-ludd-judge</artifactId>
+    <artifactId>oj-ludd-judgeMachine</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>oj-ludd-judge</name>
     <description>oj-ludd-judge</description>

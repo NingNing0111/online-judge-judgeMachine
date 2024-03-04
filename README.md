@@ -1,6 +1,6 @@
 # 介绍
 
-&emsp;基于[online-judge-sandbox](https://github.com/NingNing0111/online-judge-sandbox)代码沙箱实现的代码判题机。
+&emsp;基于[online-judge-sandbox](https://github.com/NingNing0111/online-judge-sandbox)代码沙箱实现的判题机。
 
 ## 业务流程
 
